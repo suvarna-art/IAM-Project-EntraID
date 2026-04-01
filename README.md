@@ -1,3 +1,13 @@
+# 🔐 IAM Project – Microsoft Entra ID (Azure AD)
+
+![Azure](https://img.shields.io/badge/Azure-Entra%20ID-blue?style=for-the-badge&logo=microsoftazure)
+![IAM](https://img.shields.io/badge/IAM-Identity%20Management-orange?style=for-the-badge)
+![Security](https://img.shields.io/badge/Security-Zero%20Trust-green?style=for-the-badge)
+![MFA](https://img.shields.io/badge/MFA-Enabled-red?style=for-the-badge)
+![SSO](https://img.shields.io/badge/SSO-SAML-blueviolet?style=for-the-badge)
+
+---
+
 # Identity and Access Management (IAM) Lab using Microsoft Entra ID
 
 ## Overview

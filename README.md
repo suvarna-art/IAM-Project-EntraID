@@ -12,14 +12,13 @@
 
 ## Overview
 
-This repository showcases a hands-on implementation of core Identity and Access Management (IAM) concepts using **Microsoft Entra ID (Azure Active Directory)**.
+This project demonstrates a complete Identity and Access Management (IAM) implementation using Microsoft Entra ID, simulating a real-world enterprise environment.
 
-The project simulates a real-world enterprise IAM environment, covering:
-
-* Identity Lifecycle Management (Joiner, Mover, Leaver)
-* Role-Based Access Control (RBAC)
-* Multi-Factor Authentication (MFA)
-* Single Sign-On (SSO) with Federation
+✔ Identity Lifecycle Management (Joiner, Mover, Leaver)
+✔ Role-Based Access Control (RBAC)
+✔ Multi-Factor Authentication (MFA)
+✔ SAML-based Single Sign-On (SSO)
+✔ Audit Logging & Security Validation
 
 All implementations are validated using logs, testing scenarios, and security best practices.
 
@@ -196,3 +195,7 @@ IAM-Project/
 
 **Suvarna Rekha V**
 Aspiring IAM & Cybersecurity Professional
+
+## Markdown
+
+** Designed based on enterprise IAM practices aligned with North American cybersecurity standards. **

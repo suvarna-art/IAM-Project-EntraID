@@ -5,6 +5,7 @@
 ![Security](https://img.shields.io/badge/Security-Zero%20Trust-green?style=for-the-badge)
 ![MFA](https://img.shields.io/badge/MFA-Enabled-red?style=for-the-badge)
 ![SSO](https://img.shields.io/badge/SSO-SAML-blueviolet?style=for-the-badge)
+![PAM](https://img.shields.io/badge/PAM-Privileged%20Access%20Management-black?style=for-the-badge&logo=security)
 
 ---
 
@@ -124,6 +125,26 @@ Report: `Single Sign_on and Federation Setup using Microsoft Entra ID.docx`
 
 ---
 
+## Privileged Access Management (PAM)
+
+This module demonstrates secure handling of privileged accounts in Microsoft Entra ID.
+
+### Key Implementations:
+
+* Separate admin and standard user accounts
+* Role-based privileged access assignment
+* MFA enforcement for administrators
+* Credential protection concepts (vault simulation)
+* Audit logging and monitoring
+
+### Security Focus:
+
+* Least Privilege Principle
+* Privileged Identity Protection
+* Risk Reduction for Admin Accounts
+
+📄 Report: `docs/PAM_Implementation_Report.docx`
+
 ## Tools & Technologies
 
 * Microsoft Entra ID (Azure Active Directory)
@@ -144,6 +165,50 @@ This lab simulates an enterprise IAM environment:
 * **Applications:** HR App, Finance App, IT Tool, SSO App
 * **Authentication:** Password + MFA
 * **Authorization:** RBAC
+
+### Privileged Identity Management (PIM)
+
+Privileged Identity Management (PIM) is used to control, monitor, and secure elevated access to critical resources in an organization.
+
+In this project, privileged access is implemented by separating administrative accounts (`jane.admin`) from standard user accounts (`jane.user`) and assigning roles based on responsibilities.
+
+### 🔑 Key Concepts Demonstrated:
+
+* **Separation of Duties:**
+  Standard users and administrators use separate accounts to reduce risk.
+
+* **Least Privilege Access:**
+  Administrative rights are granted only to authorized users and only when required.
+
+* **Role-Based Privilege Assignment:**
+  Admin roles (e.g., Global Administrator) are assigned to specific accounts instead of all users.
+
+* **Multi-Factor Authentication (MFA):**
+  Additional authentication is required for privileged access, enhancing security.
+
+* **Activity Monitoring:**
+  All privileged actions are tracked using sign-in logs and audit logs.
+
+### 🏢 Enterprise Enhancement (Conceptual)
+
+In a production environment, this implementation would be extended using:
+
+* **Azure AD Privileged Identity Management (PIM):**
+
+  * Just-In-Time (JIT) access (temporary admin rights)
+  * Approval-based elevation workflows
+  * Time-bound role activation
+
+* **Credential Vaulting:**
+
+  * Secure storage of privileged credentials using Azure Key Vault or CyberArk
+
+* **Session Monitoring:**
+
+  * Tracking and recording privileged sessions for audit and compliance
+
+This project simulates core PIM principles using Microsoft Entra ID while aligning with real-world enterprise IAM practices.
+
 
 ---
 
@@ -176,6 +241,7 @@ IAM-Project/
 ├── RBAC assignment in EntraID and Implementation Report.docx
 ├── Multi-Factor Authentication (MFA) Deployment using Microsoft Entra ID.docx
 ├── Single Sign_on and Federation Setup using Microsoft Entra ID.docx
+├──Privileged Access Management (PAM) Implementation Report.docx
 └── README.md
 ```
 

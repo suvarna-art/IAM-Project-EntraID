@@ -172,7 +172,28 @@ Privileged Identity Management (PIM) is used to control, monitor, and secure ele
 
 In this project, privileged access is implemented by separating administrative accounts (`jane.admin`) from standard user accounts (`jane.user`) and assigning roles based on responsibilities.
 
-### 🔑 Key Concepts Demonstrated:
+### Access Reviews & Audit Readiness
+
+This module demonstrates how access reviews are performed to ensure users have appropriate permissions over time.
+
+### ✔ Implementation:
+
+* Exported user and role data
+* Reviewed access against roles
+* Identified excessive or unused access
+* Performed remediation
+* Captured audit logs for validation
+
+### Security Focus:
+
+* Access governance
+* Compliance readiness
+* Least privilege enforcement
+* Audit documentation
+
+📄 Report: `docs/Access_Review_Report.docx`
+
+### Key Concepts Demonstrated:
 
 * **Separation of Duties:**
   Standard users and administrators use separate accounts to reduce risk.
@@ -189,7 +210,7 @@ In this project, privileged access is implemented by separating administrative a
 * **Activity Monitoring:**
   All privileged actions are tracked using sign-in logs and audit logs.
 
-### 🏢 Enterprise Enhancement (Conceptual)
+### Enterprise Enhancement (Conceptual)
 
 In a production environment, this implementation would be extended using:
 
@@ -241,7 +262,8 @@ IAM-Project/
 ├── RBAC assignment in EntraID and Implementation Report.docx
 ├── Multi-Factor Authentication (MFA) Deployment using Microsoft Entra ID.docx
 ├── Single Sign_on and Federation Setup using Microsoft Entra ID.docx
-├──Privileged Access Management (PAM) Implementation Report.docx
+├── Privileged Access Management (PAM) Implementation Report.docx 
+├── Access Review & Audit Readiness Report.docx
 └── README.md
 ```
 

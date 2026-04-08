@@ -145,6 +145,27 @@ This module demonstrates secure handling of privileged accounts in Microsoft Ent
 
 📄 Report: `docs/PAM_Implementation_Report.docx`
 
+## Access Certification 
+
+This module simulates an enterprise access certification process.
+
+### ✔ Implementation:
+
+* Exported user access data
+* Performed manual certification using Excel
+* Approved or revoked access
+* Applied remediation
+* Verified changes via audit logs
+
+### Security Focus:
+
+* Access governance
+* Compliance readiness
+* Periodic access validation
+
+📄 Report: `docs/Access_Certification_Report.docx`
+
+
 ## Tools & Technologies
 
 * Microsoft Entra ID (Azure Active Directory)

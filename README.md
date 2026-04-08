@@ -6,6 +6,8 @@
 ![MFA](https://img.shields.io/badge/MFA-Enabled-red?style=for-the-badge)
 ![SSO](https://img.shields.io/badge/SSO-SAML-blueviolet?style=for-the-badge)
 ![PAM](https://img.shields.io/badge/PAM-Privileged%20Access%20Management-black?style=for-the-badge&logo=security)
+![Access Reviews](https://img.shields.io/badge/Access%20Review-Governance-blue?style=for-the-badge)
+![Certification](https://img.shields.io/badge/Certification-Attestation-purple?style=for-the-badge)
 
 ---
 
